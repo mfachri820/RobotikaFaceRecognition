@@ -33,7 +33,7 @@ while True:
     if key == ord(' '):  # Press SPACE to capture
         if len(faces) > 0:
             name = input("Enter name to save as: ").strip()
-            np.save(f"{name}.npy", faces[0].embedding)
+            np.save(f"dataset/{name}.npy", faces[0].embedding)
             print(f"✅ Saved embedding as {name}.npy")
             captured = True
         else:
