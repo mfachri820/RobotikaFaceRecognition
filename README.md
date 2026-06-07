@@ -1,10 +1,10 @@
-# 🤖 Face Recognition & Smart Follower Robot
+# Face Recognition & Smart Follower Robot
 
 Proyek robot pengikut wajah menggunakan **Python**, **OpenCV**, **InsightFace**, dan **Arduino**.
 
-📖 **Dokumentasi lengkap**: [docs/README.md](docs/README.md)
+**Dokumentasi lengkap**: [docs/README.md](docs/README.md)
 
-## 📂 Struktur Folder
+## Struktur Folder
 
 ```
 Proyek/
@@ -15,7 +15,7 @@ Proyek/
 └── .env            # API key ElevenLabs
 ```
 
-## ▶️ Quick Start
+## ▶Quick Start
 
 ```bash
 # 1. Install dependencies
