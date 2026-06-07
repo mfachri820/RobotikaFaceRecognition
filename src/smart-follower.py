@@ -81,7 +81,7 @@ target_user = input("Follow who? ").strip().lower()
 print("Opening camera safely...")
 
 # Use DirectShow (Windows)
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 
 # Apply same settings as debugger
 fourcc_mjpg = cv2.VideoWriter_fourcc(*"MJPG")

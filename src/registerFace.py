@@ -7,7 +7,7 @@ model = insightface.app.FaceAnalysis(name="buffalo_l", providers=["CPUExecutionP
 model.prepare(ctx_id=0, det_size=(640, 640))
 
 # === Open webcam ===
-cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
+cap = cv2.VideoCapture(0, cv2.CAP_DSHOW)
 if not cap.isOpened():
     print("❌ Could not open webcam.")
     exit()
